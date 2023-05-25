@@ -162,8 +162,8 @@ M.enable_managed_ui = function()
 
 	if config.set_cursor then
 		vim.opt.guicursor:append('v-sm:block-ModesVisual')
-		vim.opt.guicursor:append('i-ci-ve:ver25-ModesInsert')
-		vim.opt.guicursor:append('r-cr-o:hor20-ModesOperator')
+		vim.opt.guicursor:append('i-ci-ve:block-ModesInsert')
+		vim.opt.guicursor:append('r-cr-o:block-ModesOperator')
 	end
 
 	if config.set_cursorline then
