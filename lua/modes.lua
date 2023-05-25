@@ -178,8 +178,8 @@ M.disable_managed_ui = function()
 
 	if config.set_cursor then
 		vim.opt.guicursor:remove('v-sm:block-ModesVisual')
-		vim.opt.guicursor:remove('i-ci-ve:ver25-ModesInsert')
-		vim.opt.guicursor:remove('r-cr-o:hor20-ModesOperator')
+		vim.opt.guicursor:remove('i-ci-ve:block-ModesInsert')
+		vim.opt.guicursor:remove('r-cr-o:block-ModesOperator')
 	end
 
 	if config.set_cursorline then
